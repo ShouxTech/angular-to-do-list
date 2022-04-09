@@ -1,0 +1,6 @@
+<div id="main">
+    <input type="text" placeholder="Task" [(ngModel)]="taskInput" (keydown.enter)="addTask()">
+    <div id="list">
+        <app-list-item *ngFor="let task of tasks" [taskName]="task" (removeTask)="removeTask(task)"></app-list-item>
+    </div>
+</div>

@@ -1,0 +1,12 @@
+div {
+    background-color: rgb(12, 22, 46);
+    text-align: center;
+    padding: 1px;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    color: #fff;
+}
